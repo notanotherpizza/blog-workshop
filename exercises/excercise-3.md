@@ -59,6 +59,7 @@ git add .
 
 git commit -m "Workshop date"
 
+<<<<<<< HEAD
 git push -u origin blog-workshop
 ```
 
@@ -80,3 +81,12 @@ Congratulations on successfully publishing your mini blog and completing the beg
 
 Once you've done that, you can always try [challenge 2](../challenges/challenge-2.md): hosting your own blog on GitHub pages.
 
+=======
+git push
+
+in github create a PR and select merge to main
+
+Wait for it to be approved and merged
+
+Look at your publish outline at https://notanother.pizza/blog-workshop/
+>>>>>>> 2131d06 (Rough outline of slides / resources)

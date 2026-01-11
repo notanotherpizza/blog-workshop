@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Exercise 1: Think of an Idea for Your Mini Blog Post
 
 The aim of this exercise is to come up with some ideas for what _you_ would like to write about on a blog.
@@ -27,3 +28,10 @@ If you're stuck for ideas, why not look at some of these blogs for inspiration?
 ## Next Step
 
 After completing this exercise and sharing your ideas with the group, you should have at least one idea for a mini blog post you'd like to write. You can turn it into a mini blog draft in [exercise 2](../exercises/excercise-2.md).
+=======
+# Exercise 1: Come up with an idea for your first blog
+
+In 5 minutes write down as many ideas as you can for blogs you might like to write
+
+Be prepared to share one with the group at the end of 5 minutes
+>>>>>>> 2131d06 (Rough outline of slides / resources)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Challenge 1: Write and Publish a Blog Post
 
 > This challenge is not intended to be completed in the workshop time.
@@ -30,3 +31,6 @@ You can use the instructions in [Exercise 3](../exercises/exercise-3.md) to post
 blog to the [workshop blog feed](https://notanother.pizza/blog-workshop/), or if you'd
 like to have a go at creating your own site check out
 [Challenge 2](../challenges/challenge-2.md).
+=======
+# Challenge 1: Finish your blog
+>>>>>>> 2131d06 (Rough outline of slides / resources)
