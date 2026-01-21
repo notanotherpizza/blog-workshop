@@ -31,6 +31,7 @@ You can find the slides for the workshop [here](https://docs.google.com/presenta
 Contributions, suggestions, corrections, and additions welcome. Please raise an issue or open a PR.
 =======
 You will need a code editor and a GitHub account to complete the exercises in this workshop. If you don't have either of these already you can use the following to get setup:
+- [Install Git](https://git-scm.com/install/)
 - [Download VS Code](https://code.visualstudio.com/)
 - [Create a GitHub account](https://github.com/signup)
 

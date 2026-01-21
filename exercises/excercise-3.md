@@ -56,10 +56,13 @@ category: workshop
 
 ```bash
 git add .
+```
 
+```bash
 git commit -m "Workshop date"
+```
 
-<<<<<<< HEAD
+```bash
 git push -u origin blog-workshop
 ```
 
@@ -80,13 +83,3 @@ In the Create PR screen, select the `main` branch as the target and your newly c
 Congratulations on successfully publishing your mini blog and completing the beginners' blog workshop. If you enjoyed this session, why not try [challenge 1](../challenges/challenge-1.md) and turn your mini blog into a full length version, and then use the process above to update your mini blog into a finished blog post?
 
 Once you've done that, you can always try [challenge 2](../challenges/challenge-2.md): hosting your own blog on GitHub pages.
-
-=======
-git push
-
-in github create a PR and select merge to main
-
-Wait for it to be approved and merged
-
-Look at your publish outline at https://notanother.pizza/blog-workshop/
->>>>>>> 2131d06 (Rough outline of slides / resources)
