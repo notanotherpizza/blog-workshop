@@ -6,6 +6,8 @@ The aims of this exercise are to familiarize you with the process of:
 
 Whilst not all publications operate in this way this exercise will you equip you with the key skills to publish blogs to those that do and will introduce many of the key concepts necessary to complete [challenge 2](../challenges/challenge-2.md).
 
+> Before you start: this is a much longer exercise than the previous two, don't worry if you don't finish it in the workshop time. You can still follow the steps below and complete this exercise after the session.
+
 ## What is a PR?
 
 A pull request is a way of requesting that the maintainers of a repo "pull" your code changes into their main branch. In this exercise we will use a PR to add your blog outline [to this blog feed](https://notanother.pizza/blog-workshop/) on the [notanother.pizza](https://notanother.pizza) website.
@@ -40,13 +42,14 @@ git checkout -b yourname-workshop
 
 > Hint: Now is a good time to open your newly cloned repo in VS Code to make the next steps easier.
 
-4. Create a new Markdown (.md) file in the `_posts` directory with today's date and the title of your blog, for example: `2025-04-15-Not-Another-Update.md` `yyyy-mm-dd-your-blog-tile.md`.
+4. Create a new Markdown (.md) file in the `_posts` directory with today's date and the title of your blog, for example: `2025-04-15-Not-Another-Update.md` `yyyy-mm-dd-your-blog-title.md`.
 
 5. Copy your outline from [exercise 2](../exercises/excercise-2.md) into your newly created file.
 
 6. At the beginning of your file add the following tags so that Jekyll can render the page correctly.
 
 ```
+---
 layout: post
 title: Example Outline
 author: your-name
@@ -65,7 +68,7 @@ git add .
 
 git commit -m "Workshop date"
 
-git push
+git push -u origin yourname-workshop
 ```
 
 8. Back in GitHub create a PR and select merge to notanotherpizza/main by navigating to the Pull Request tab and clicking "New".
