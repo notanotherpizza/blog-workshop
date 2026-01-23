@@ -1,6 +1,6 @@
 # Exercise 3: Raise a pull request and publish your outline
 
-The aim of this exercise is to familiarize you with the process of:
+The aims of this exercise are to familiarize you with the process of:
 - making a contribution to a public GitHub repo
 - using a static site generator (in this case Jekyll) to render it
 
