@@ -1,6 +1,12 @@
 # Exercise 3: Raise a Pull Request and Publish Your Mini Blog
 
+<<<<<<< HEAD
 The aims of this exercise are to familiarize you with the process of contributing a blog in Markdown to a public GitHub repo, and using a static site generator, in this case Jekyll, to publish it.
+=======
+The aims of this exercise are to familiarize you with the process of:
+- making a contribution to a public GitHub repo
+- using a static site generator (in this case Jekyll) to render it
+>>>>>>> 3b0ba41 (excersise 2)
 
 Not all blogs use a static site generator. However, this exercise will equip you with the skills to publish blogs to those that do. It will introduce many of the key concepts necessary to complete [challenge 2](../challenges/challenge-2.md).
 

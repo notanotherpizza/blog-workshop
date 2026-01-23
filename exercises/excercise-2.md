@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Exercise 2: Writing Your Mini Blog
 
 The aims of this exercise are to:
@@ -63,12 +62,3 @@ Save your gist when you're done—you'll use the content in [Exercise 3](../exer
 ## Next Steps
 
 You should now have a rough outline based on your blog idea from [Exercise 1](../exercises/excercise-1.md), that you can use to create a draft blog post. In [Exercise 3](../exercises/excercise-3.md), you will publish your mini blog. This will introduce you to the process making a contribution to a public GitHub repo and using a static site generator to render it.
-=======
-# Exercise 2: Create an outline for a blog
-
-What is markdown
-
-Creating an outline in markdown
-
-Save your outline for later
->>>>>>> 2131d06 (Rough outline of slides / resources)
