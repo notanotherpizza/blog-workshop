@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Challenge 2: Create Your Own Blog Site With GitHub Pages
 
 > This challenge is not intended to be completed in the workshop time.
@@ -33,6 +32,3 @@ If you'd like to share what you created using this repo or have any feedback ple
 Happy blogging,
 
 Hugh
-=======
-# Challenge 2: Create your own blog site with GH pages
->>>>>>> 2131d06 (Rough outline of slides / resources)
