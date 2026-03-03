@@ -1,22 +1,10 @@
 # Exercise 3: Raise a Pull Request and Publish Your Mini Blog
 
-<<<<<<< HEAD
 The aims of this exercise are to familiarize you with the process of contributing a blog in Markdown to a public GitHub repo, and using a static site generator, in this case Jekyll, to publish it.
-=======
-The aims of this exercise are to familiarize you with the process of:
-- making a contribution to a public GitHub repo
-- using a static site generator (in this case Jekyll) to render it
->>>>>>> 3b0ba41 (excersise 2)
 
 Not all blogs use a static site generator. However, this exercise will equip you with the skills to publish blogs to those that do. It will introduce many of the key concepts necessary to complete [challenge 2](../challenges/challenge-2.md).
 
-<<<<<<< HEAD
 > Before you start, this is a much longer exercise than the previous two, so don't worry if you don't finish it in the workshop time! You can still follow the steps below and complete this exercise after the session.
-=======
-> Before you start: this is a much longer exercise than the previous two, don't worry if you don't finish it in the workshop time. You can still follow the steps below and complete this exercise after the session.
-
-## What is a PR?
->>>>>>> 10508ef (Fix typos in excersize 3)
 
 ## What is a Pull Request?
 
@@ -55,17 +43,7 @@ git checkout -b blog-workshop
 6. At the beginning of your file, add the following block. This is called [front matter](https://jekyllrb.com/docs/front-matter/) and it's a short section of YAML metadata that Jekyll reads before rendering your page.
 Front matter tells Jekyll things like which layout template to use, what the post title is, and who wrote it. Anything between the two `---` delimiters is front matter, and it won't appear in your published blog post.
 
-<<<<<<< HEAD
 ```frontmatter
-=======
-4. Create a new Markdown (.md) file in the `_posts` directory with today's date and the title of your blog, for example: `2025-04-15-Not-Another-Update.md` `yyyy-mm-dd-your-blog-title.md`.
-
-5. Copy your outline from [exercise 2](../exercises/excercise-2.md) into your newly created file.
-
-6. At the beginning of your file add the following tags so that Jekyll can render the page correctly.
-
-```
->>>>>>> 10508ef (Fix typos in excersize 3)
 ---
 layout: post
 title: My Mini Blog
@@ -78,13 +56,6 @@ category: workshop
 
 ```bash
 git add .
-<<<<<<< HEAD
-=======
-
-git commit -m "Workshop date"
-
-git push -u origin yourname-workshop
->>>>>>> 10508ef (Fix typos in excersize 3)
 ```
 
 ```bash
