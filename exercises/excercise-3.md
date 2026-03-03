@@ -2,13 +2,13 @@
 
 The aims of this exercise are to familiarize you with the process of contributing a blog in Markdown to a public GitHub repo, and using a static site generator, in this case Jekyll, to publish it.
 
-Not all blogs use a static site generator. However, this exercise will you equip you with the skills to publish blogs to those that do. It will introduce many of the key concepts necessary to complete [challenge 2](../challenges/challenge-2.md).
+Not all blogs use a static site generator. However, this exercise will equip you with the skills to publish blogs to those that do. It will introduce many of the key concepts necessary to complete [challenge 2](../challenges/challenge-2.md).
 
 > Before you start, this is a much longer exercise than the previous two, so don't worry if you don't finish it in the workshop time! You can still follow the steps below and complete this exercise after the session.
 
 ## What is a Pull Request?
 
-A pull request, or PR, is a way of requesting that the maintainers of a repository "pull" your code changes into their main branch. In this exercise, we'll use a PR to add your blog outline [to this blog feed](https://notanother.pizza/blog-workshop/) on the [notanother.pizza](https://notanother.pizza) website.
+A pull request, or PR, is a way of requesting that the maintainers of a repository "pull" your code changes into their main branch. In this exercise, we'll use a PR to add your mini blog [to this blog feed](https://notanother.pizza/blog-workshop/) on the [notanother.pizza](https://notanother.pizza) website.
 
 ## Instructions 
 
@@ -26,7 +26,7 @@ You can leave all the settings as the defaults and click "Create Fork".
 
 ![Creating a github codespace from a fork](../images/create-codespace.png)
 
-3. Create a new branch by copy pasting the following into the terminal at the bottom of the codespace and pressing enter.
+3. Create a new branch by copy-pasting the following into the terminal at the bottom of the codespace and pressing enter.
 
 ```bash
 git checkout -b yourname-workshop
@@ -69,13 +69,13 @@ In the Create PR screen, select the `main` branch as the target and your newly c
 
 ![](../images/create-pr.png)
 
-9. Wait for it to be approved. [Ping a maintainer](https://github.com/hevansDev/site?tab=readme-ov-file#maintainers) to make this faster. Once it's approved, you can click the **Merge** button the PR to merge your changes to the remote and add your changes to the repo.
+9. Wait for it to be approved. [Ping a maintainer](https://github.com/hevansDev/site?tab=readme-ov-file#maintainers) to make this faster. Once it's approved, you can click the **Merge** button in the PR to merge your changes to the remote and add your changes to the repo.
 
-10. Once your changes are merged to `notanotherpizza/site` the Jekyll GitHub action will create render the changes and update the GitHub Pages website. You should be able to see your published outline [here](https://notanother.pizza/blog-workshop/)!
+10. Once your changes are merged to `notanotherpizza/site` the Jekyll GitHub action will render the changes and update the GitHub Pages website. You should be able to see your published mini blog [here](https://notanother.pizza/blog-workshop/)!
 
 ## Next Steps
 
-Congratulations on successfully publishing your outline and completing the beginners blog workshop. If you enjoyed this session why not try [challenge 1](../challenges/challenge-1.md) complete your blog, and then use the process above to update your outline into a finished blog?
+Congratulations on successfully publishing your mini blog and completing the beginners' blog workshop. If you enjoyed this session, why not try [challenge 1](../challenges/challenge-1.md) and turn your mini blog into a full length version, and then use the process above to update your mini blog into a finished blog post?
 
-Once you've done that you can always try [challenge 2](../challenges/challenge-2.md) hosting your own blog on GitHub pages.
+Once you've done that, you can always try [challenge 2](../challenges/challenge-2.md): hosting your own blog on GitHub pages.
 
