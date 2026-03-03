@@ -1,22 +1,20 @@
-# Exercise 3: Raise a pull request and publish your outline
+# Exercise 3: Raise a Pull Request and Publish Your Mini Blog
 
-The aims of this exercise are to familiarize you with the process of:
-- making a contribution to a public GitHub repo
-- using a static site generator (in this case Jekyll) to render it
+The aims of this exercise are to familiarize you with the process of contributing a blog in Markdown to a public GitHub repo, and using a static site generator, in this case Jekyll, to publish it.
 
-Whilst not all publications operate in this way this exercise will you equip you with the key skills to publish blogs to those that do and will introduce many of the key concepts necessary to complete [challenge 2](../challenges/challenge-2.md).
+Not all blogs use a static site generator. However, this exercise will you equip you with the skills to publish blogs to those that do. It will introduce many of the key concepts necessary to complete [challenge 2](../challenges/challenge-2.md).
 
-> Before you start: this is a much longer exercise than the previous two, don't worry if you don't finish it in the workshop time. You can still follow the steps below and complete this exercise after the session.
+> Before you start, this is a much longer exercise than the previous two, so don't worry if you don't finish it in the workshop time! You can still follow the steps below and complete this exercise after the session.
 
-## What is a PR?
+## What is a Pull Request?
 
-A pull request is a way of requesting that the maintainers of a repo "pull" your code changes into their main branch. In this exercise we will use a PR to add your blog outline [to this blog feed](https://notanother.pizza/blog-workshop/) on the [notanother.pizza](https://notanother.pizza) website.
+A pull request, or PR, is a way of requesting that the maintainers of a repository "pull" your code changes into their main branch. In this exercise, we'll use a PR to add your blog outline [to this blog feed](https://notanother.pizza/blog-workshop/) on the [notanother.pizza](https://notanother.pizza) website.
 
 ## Instructions 
 
 1. Fork the [notanother.pizza/site repo](https://github.com/notanotherpizza/site) by navigating to and clicking the "fork" button on the top right of the page. 
 
-> "Forking" a repo creates a copy of the upstream repo (in this case notanotherpizza/site) that you can make changes to, later on you can contribute these changes back to the upstream branch via a PR, this process saves the maintainers from having to individually grant access to would be contributors and means anyone can suggest changes. This basic process underpins most open-source contributions. Neat!
+> "Forking" a repo creates a copy of the upstream repo (in this case notanotherpizza/site) that you can make changes to, later on you can contribute these changes back to the upstream branch via a PR, this process saves the maintainers from having to individually grant access to contributors and means anyone can suggest changes. This basic process underpins most open-source contributions. Neat!
 
 ![Create fork button](../images/new-fork.png)
 
@@ -34,26 +32,24 @@ You can leave all the settings as the defaults and click "Create Fork".
 git checkout -b yourname-workshop
 ```
 
-> Hint: Now is a good time to open your newly cloned repo in VS Code to make the next steps easier.
+4. Create a new Markdown (.md) file in the `_posts` directory. It should have today's date and the title of your blog in the following format `yyyy-mm-dd-your-blog-title.md`, for example: `2025-04-15-Not-Another-Update.md` .
 
-4. Create a new Markdown (.md) file in the `_posts` directory with today's date and the title of your blog, for example: `2025-04-15-Not-Another-Update.md` `yyyy-mm-dd-your-blog-title.md`.
+5. Copy your draft from [exercise 2](../exercises/excercise-2.md) into your newly created file.
 
-5. Copy your outline from [exercise 2](../exercises/excercise-2.md) into your newly created file.
+> Optional: view roughly what your finished blog will look like by right clicking on your new file in your codespace and clicking preview.
 
-6. At the beginning of your file add the following tags so that Jekyll can render the page correctly.
+6. At the beginning of your file, add the following code. This is called [front matter](https://jekyllrb.com/docs/front-matter/), and helps Jekyll render the page correctly.
 
 ```
 ---
 layout: post
-title: Example Outline
+title: My Mini Blog
 author: your-name
 category: workshop
 ---
 
-*your outline*
+...
 ```
-
-> Optional: run jekyll locally to see what your outline looks like rendered before you merge them, for instructions on how to do this [see the docs for the Jekyll template here](https://github.com/notanotherpizza/site/blob/main/jekyll-mono.md#local-development).
 
 7. Commit your changes to your local branch and push to the remote branch with:
 
@@ -65,17 +61,17 @@ git commit -m "Workshop date"
 git push -u origin yourname-workshop
 ```
 
-8. Back in GitHub create a PR and select merge to notanotherpizza/main by navigating to the Pull Request tab and clicking "New".
+8. Back in GitHub create a PR. Select merge to `notanotherpizza/site` by navigating to the Pull Request tab and clicking **New**.
 
 ![](../images/new-pr.png)
 
-In the create PR screen select the notanotherpizza/main branch as the target and your newly created branch as the source and click "Create Pull Request"
+In the Create PR screen, select the `main` branch as the target and your newly created branch as the source. Click **Create Pull Request**.
 
 ![](../images/create-pr.png)
 
-9. Wait for it to be approved, [ping a maintainer](https://github.com/hevansDev/site?tab=readme-ov-file#maintainers) to expedite this process. Once it's approved you can click the "Merge" button the PR merge your changes to the remote and add your changes to the repo.
+9. Wait for it to be approved. [Ping a maintainer](https://github.com/hevansDev/site?tab=readme-ov-file#maintainers) to make this faster. Once it's approved, you can click the **Merge** button the PR to merge your changes to the remote and add your changes to the repo.
 
-10. Once your changes are merged to notanotherpizza/main the Jekyll GitHub action will create render the changes and update the GitHub pages website. You should be able to see your published outline at https://notanother.pizza/blog-workshop/!
+10. Once your changes are merged to `notanotherpizza/site` the Jekyll GitHub action will create render the changes and update the GitHub Pages website. You should be able to see your published outline [here](https://notanother.pizza/blog-workshop/)!
 
 ## Next Steps
 
