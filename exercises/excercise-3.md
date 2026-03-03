@@ -24,19 +24,13 @@ You can leave all the settings as the defaults and click "Create Fork".
 
 ![Creating a fork of the repo](../images/create-new-fork.png)
 
-2. Clone the forked repo to your computer by opening a terminal on your computer and running the following command
+2. Create a codespace which will allow you to edit the repo in your browser (this can take a few minutes).
+
+![Creating a github codespace from a fork](../images/create-codespace.png)
+
+3. Create a new branch by copy pasting the following into the terminal at the bottom of the codespace and pressing enter.
 
 ```bash
-git clone https://github.com/your-username/site.git
-```
-
-> Hint: You can find the URL for the above command by navigating to your fork in GitHub and clicking the green "Code" button in the top right. 
-> ![](../images/check-clone-url.png)
-
-3. Navigate into repo you have just cloned and create a new branch with the following
-
-```bash
-cd site
 git checkout -b yourname-workshop
 ```
 
