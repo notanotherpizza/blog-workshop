@@ -11,6 +11,8 @@ Using your idea from [Exercise 1](../exercises/excercise-1.md), spend 15 minutes
 
 To write your draft, navigate to [gist.github.com](https://gist.github.com) and create a new gist. Make sure to name your file with a `.md` extension (e.g. `my-mini-blog.md`) so that GitHub renders it as Markdown. You can click the **Preview** tab at any time to see how your draft looks when rendered.
 
+![gist example](../images/gist.png)
+
 > **What is Markdown?**
 > Markdown is a lightweight markup language for adding formatting to plain text documents. When you write a Markdown file, a parser reads the syntax and converts it into another format, most commonly HTML, which is what makes it so versatile. It's used everywhere from blogs and documentation to GitHub READMEs and chat apps.
 >
