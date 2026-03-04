@@ -29,16 +29,17 @@ You can leave all the settings as the defaults and click "Create Fork".
 3. Create a new branch by copy-pasting the following into the terminal at the bottom of the codespace and pressing enter.
 
 ```bash
-git checkout -b yourname-workshop
+git checkout -b blog-workshop
 ```
 
 4. Create a new Markdown (.md) file in the `_posts` directory. It should have today's date and the title of your blog in the following format `yyyy-mm-dd-your-blog-title.md`, for example: `2025-04-15-Not-Another-Update.md` .
 
-5. Copy your draft from [exercise 2](../exercises/excercise-2.md) into your newly created file.
+5. Copy your draft from [Exercise 2](../exercises/excercise-2.md) into your newly created file.
 
 > Optional: view roughly what your finished blog will look like by right clicking on your new file in your codespace and clicking preview.
 
-6. At the beginning of your file, add the following code. This is called [front matter](https://jekyllrb.com/docs/front-matter/), and helps Jekyll render the page correctly.
+6. At the beginning of your file, add the following block. This is called [front matter](https://jekyllrb.com/docs/front-matter/) and it's a short section of YAML metadata that Jekyll reads before rendering your page.
+Front matter tells Jekyll things like which layout template to use, what the post title is, and who wrote it. Anything between the two `---` delimiters is front matter, and it won't appear in your published blog post.
 
 ```
 ---
@@ -58,7 +59,7 @@ git add .
 
 git commit -m "Workshop date"
 
-git push -u origin yourname-workshop
+git push -u origin blog-workshop
 ```
 
 8. Back in GitHub create a PR. Select merge to `notanotherpizza/site` by navigating to the Pull Request tab and clicking **New**.

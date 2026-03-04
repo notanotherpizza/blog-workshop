@@ -25,25 +25,38 @@ Your mini blog should have:
 - a few short sections or paragraphs
 - a brief conclusion
 
-Aim for a few hundred words in total. Here's a rough example of what it might look like:
+Aim for a few hundred words in total. Here's an example of what it might look like:
 
 ```markdown
 # What I Learned at codebar Festival 2026
-## Introduction
-* What codebar and codebar Festival are
-* Why I went and what I hoped to learn
+
+**This week I went to the Codebar Festival**, a hybrid event bringing together both coaches and students from the [codebar](https://codebar.io) community for workshops and talks.
+
+codebar is a charity that helps under represented groups enter the tech industry though workshops and events like the festival.
+
+At the festival I was hoping to learn more about Javascript as I'm pursuing a career in web app development.
+
 ## Javascript Workshop
-## Career Talk
+
+The Javascript workshop was really interesting, I particular like the quiz covering all the weird behaviors of `this`. 
+
+I've covered the basic of Javascript before but it was useful to look into some best practices whilst coding a little fizz buzz app.
+
 ## Deno Workshop
+
+I hadn't heard of Deno (node spelled backwards!) before this workshop. It was eye opening learning about different JavaScript runtimes and it was a lot of fun building the dinosaur jumping game.
+
 ## Conclusion
-* Highlights from the year
-* Workshops I missed
-* Hopes for next time
-## What I'd Do Differently Next Time
+
+![a picture of some of the new friends I made at the festival](./images/group-photo.jpg)
+
+I really enjoyed going to the codebar Festival and I learned heaps. I got major FOMO because some of the JavaScript sessions were at the same time but I guess I can watch the recordings later.
+
+If you're trying to learn JavaScript like me I'd definitely recommend checking out codebar!
 ```
 
-Save your gist when you're done — you'll copy the content into your repo in [exercise 3](../exercises/excercise-3.md).
+Save your gist when you're done—you'll use the content in [Exercise 3](../exercises/excercise-3.md).
 
-## Conclusion
+## Next Steps
 
-You should now have a rough first draft of your mini blog from [exercise 1](../exercises/excercise-1.md). In [exercise 3](../exercises/excercise-3.md) we'll publish it to a blog feed to introduce you to the process of contributing to a public GitHub repo and using a static site generator (in this case Jekyll) to render it.
+You should now have a rough outline based on your blog idea from [Exercise 1](../exercises/excercise-1.md), that you can use to create a draft blog post. In [Exercise 3](../exercises/excercise-3.md), you will publish your mini blog. This will introduce you to the process making a contribution to a public GitHub repo and using a static site generator to render it.

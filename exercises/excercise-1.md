@@ -2,7 +2,7 @@
 
 The aim of this exercise is to come up with some ideas for what _you_ would like to write about on a blog.
 
-## Instructions
+## Instruction
 
  In 5 minutes, write down as many ideas as you can for blog posts you might like to write. Be prepared to share at least one with your group once the time is up.
 
@@ -22,6 +22,6 @@ If you're stuck for ideas, why not look at some of these blogs for inspiration?
 - [hughevans.dev](https://hughevans.dev) - Hugh Evans' personal writing on making, engineering, and community
 - [leo/blog](https://blog.cowsay.io/author/leo/) - Leo Riviera's weeknotes and essays on tech and digital services
 
-## Conclusion
+## Next Step
 
 After completing this exercise and sharing your ideas with the group, you should have at least one idea for a mini blog post you'd like to write. You can turn it into a mini blog draft in [exercise 2](../exercises/excercise-2.md).
