@@ -13,7 +13,7 @@ A pull request, or PR, is a way of requesting that the maintainers of a reposito
 ## Instructions
 
 <video width="100%" controls>
-  <source src="https://media.githubusercontent.com/media/notanotherpizza/blog-workshop/main/exercises/excersize-3.mp4" type="video/mp4">
+  <source src="https://github.com/notanotherpizza/blog-workshop/raw/refs/heads/v1/exercises/excersize-3.mp4" type="video/mp4">
 </video>
 
 1. Fork the [notanother.pizza/site repo](https://github.com/notanotherpizza/site) by navigating to and clicking the "fork" button on the top right of the page.
