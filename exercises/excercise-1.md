@@ -7,14 +7,16 @@ The aim of this exercise is to come up with some ideas for what _you_ would like
  In 5 minutes, write down as many ideas as you can for blog posts you might like to write. Be prepared to share at least one with your group once the time is up.
 
 Here's some of the suggested patterns scoped down to a mini blog:
-- *I Found a Thing* - Share one interesting thing you discovered and why it caught your attention
-- *Bug Hunt* - Describe a single bug you tracked down and the one key thing you learned from it
-- *Today I Learned* - A memo to your future self about one thing you'll want to remember
-- *Lessons Learned* - Pick one mistake, what went wrong, and what you'd do differently
-- *Compare & Contrast* - Two ways to solve a single, specific problem and why you prefer one
-- *My Experience at* - Pick one talk or moment from a conference or meetup and why it stood out
+
+- _I Found a Thing_ - Share one interesting thing you discovered and why it caught your attention
+- _Bug Hunt_ - Describe a single bug you tracked down and the one key thing you learned from it
+- _Today I Learned_ - A memo to your future self about one thing you'll want to remember
+- _Lessons Learned_ - Pick one mistake, what went wrong, and what you'd do differently
+- _Compare & Contrast_ - Two ways to solve a single, specific problem and why you prefer one
+- _My Experience at_ - Pick one talk or moment from a conference or meetup and why it stood out
 
 If you're stuck for ideas, why not look at some of these blogs for inspiration?
+
 - [Codebar Blog](https://blog.codebar.io) - Stories and experiences from the codebar community
 - [rmoff.net](https://rmoff.net) - Robin Moffatt's blog on data engineering, Apache Kafka, and streaming
 - [ghostdev.xyz](https://ghostdev.xyz) - Technical writing on software development and engineering

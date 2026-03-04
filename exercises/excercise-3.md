@@ -6,13 +6,17 @@ Not all blogs use a static site generator. However, this exercise will equip you
 
 > Before you start, this is a much longer exercise than the previous two, so don't worry if you don't finish it in the workshop time! You can still follow the steps below and complete this exercise after the session.
 
+<video width="100%" controls>
+  <source src="excersize3.mp4" type="video/mp4">
+</video>
+
 ## What is a Pull Request?
 
 A pull request, or PR, is a way of requesting that the maintainers of a repository "pull" your code changes into their main branch. In this exercise, we'll use a PR to add your mini blog [to this blog feed](https://notanother.pizza/blog-workshop/) on the [notanother.pizza](https://notanother.pizza) website.
 
-## Instructions 
+## Instructions
 
-1. Fork the [notanother.pizza/site repo](https://github.com/notanotherpizza/site) by navigating to and clicking the "fork" button on the top right of the page. 
+1. Fork the [notanother.pizza/site repo](https://github.com/notanotherpizza/site) by navigating to and clicking the "fork" button on the top right of the page.
 
 > "Forking" a repo creates a copy of the upstream repo (in this case notanotherpizza/site) that you can make changes to, later on you can contribute these changes back to the upstream branch via a PR, this process saves the maintainers from having to individually grant access to contributors and means anyone can suggest changes. This basic process underpins most open-source contributions. Neat!
 
@@ -41,15 +45,13 @@ git checkout -b blog-workshop
 6. At the beginning of your file, add the following block. This is called [front matter](https://jekyllrb.com/docs/front-matter/) and it's a short section of YAML metadata that Jekyll reads before rendering your page.
 Front matter tells Jekyll things like which layout template to use, what the post title is, and who wrote it. Anything between the two `---` delimiters is front matter, and it won't appear in your published blog post.
 
-```
+```frontmatter
 ---
 layout: post
 title: My Mini Blog
 author: your-name
 category: workshop
 ---
-
-...
 ```
 
 7. Commit your changes to your local branch and push to the remote branch with:
