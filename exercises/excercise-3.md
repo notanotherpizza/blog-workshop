@@ -6,6 +6,10 @@ Not all blogs use a static site generator. However, this exercise will equip you
 
 > Before you start, this is a much longer exercise than the previous two, so don't worry if you don't finish it in the workshop time! You can still follow the steps below and complete this exercise after the session.
 
+<video width="100%" controls>
+  <source src="excersize3.mp4" type="video/mp4">
+</video>
+
 ## What is a Pull Request?
 
 A pull request, or PR, is a way of requesting that the maintainers of a repository "pull" your code changes into their main branch. In this exercise, we'll use a PR to add your mini blog [to this blog feed](https://notanother.pizza/blog-workshop/) on the [notanother.pizza](https://notanother.pizza) website.
