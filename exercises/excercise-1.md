@@ -2,7 +2,7 @@
 
 The aim of this exercise is to come up with some ideas for what _you_ would like to write about on a blog.
 
-## Instruction
+## Instructions
 
  In 5 minutes, write down as many ideas as you can for blog posts you might like to write. Be prepared to share at least one with your group once the time is up.
 
