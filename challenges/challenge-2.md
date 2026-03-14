@@ -1,1 +1,1 @@
-# Challenge 2: Create your own blog site with GH pages
+# Challenge 2: Create Your Own Blog Site With GitHub Pages

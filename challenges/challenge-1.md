@@ -1,1 +1,1 @@
-# Challenge 1: Finish your blog
+# Challenge 1: Finish Your Mini Blog
