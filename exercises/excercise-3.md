@@ -74,7 +74,7 @@ In the Create PR screen, select the `main` branch as the target and your newly c
 
 ![](../images/create-pr.png)
 
-9. Wait for it to be approved. [Ping a maintainer](https://github.com/hevansDev/site?tab=readme-ov-file#maintainers) to make this faster. Once it's approved, you can click the **Merge** button in the PR to merge your changes to the remote and add your changes to the repo.
+9. Wait for it to be approved. [You can always message a maintainer](https://github.com/notanotherpizza/site/blob/main/maintainers.md) to make this faster. Once it's approved, you can click the **Merge** button in the PR to merge your changes to the remote and add your changes to the repo.
 
 10. Once your changes are merged to `notanotherpizza/site` the Jekyll GitHub action will render the changes and update the GitHub Pages website. You should be able to see your published mini blog [here](https://notanother.pizza/blog-workshop/)!
 
