@@ -9,14 +9,16 @@ The aims of this exercise are to:
 
 Using your idea from [Exercise 1](../exercises/excercise-1.md), spend 15 minutes writing a rough first draft of your mini blog in Markdown. Don't worry about getting it perfect. The goal is just to get something down.
 
-To write your draft, navigate to [gist.github.com](https://gist.github.com) and create a new gist. Make sure to name your file with a `.md` extension (e.g. `my-mini-blog.md`) so that GitHub renders it as Markdown. You can click the **Preview** tab at any time to see how your draft looks when rendered.
+To write your draft, navigate to [Markdown Viewer](https://markdownviewer.pages.dev/). This is an useful browser based tool for writing and previewing Markdown.
 
-![gist example](../images/gist.png)
+> Struggle to get started? Try starting from [this example](https://markdownviewer.pages.dev/#share=eJxllMtu2zAQRff6igmycGKkdpFFF90VKQK4aJFFA2QRBOhIGom0KVLlw4bz9b2klMBOAcN6zQzPvZzhJT0pjrShn8LeSkt4aFwrNXu6lxD1ng3dfr79UlXL5aPSgQ4iO8QfxEaKjqISuvuQsFzeEJM61l63JPsciVvb44eUXpDjqXZRYSlulARi21KIqUVooM67odR9nklerlSMY_i6Xs8vVtpdI3cYktXxSJ3zdHB-F5Qbp1qRzS6squpNCriZGsU-h8esWIlBbLItULyMXgLWhv7eu4QP-cEXiCiNIm3bFKLPuS716sNqRWIgo3dSUrrZBwB8i2dvsnEcCJmTF2Sy7TQ4L8S1S5F-8J5D4_UYCYGbxUBj8iHlcChgL8DSFvbXxONILdY2bhwAgNUuL0_zn2bIqnoEwsmHN_rC4oWNOaImBGdK29-AcmQfdZMMvHuX9TfpV7i-F19ojClvD6J9S7Uo3mvnA7mO_kQ0yp8VVdVmsZcpBdbm6JqDbnLMCU4tXdZfQ72OhSkF6ZIp_ji3y2yOghsQA0IaPTeAQ9sclDahNOzkj9ExGritX19RDn-waLLlu1h3YsiGFLd2kduAQQ-eEnBl0S8URjEGvDU3uwM-h4vrN8ZYJmAus6LNhCtHITeKzRBlQwtN2c5Wdx3E22ljf0-CfbJRD3Pbz5IB72IG6ZIFuzZFUrYMNy5w8rRNQ2mbngeZVN0525gUtLNVdfHMNOomJmCiTLEL11zBygFDpcW26CgaGBr5vC9frlZrPXAvYV0G4NOoXHSr7dhfZ7PmHhG7dcc8I27u3lziv9Mii9pMPiAWBo8BTiEpYuktRvX-4dcDDG0Y23zGeWJRkJBl5ePGv9MGCKfsXOkVlEyIwrVhDARHzGmO8tI4n93DRDKaGlZtOjq6tMgb6I9nk3eyZOlz1N4sWoxVp3G0CETncgPmq8X5Ic0uZ-eNnWVf_AN6od0e)
+
+![markdown viewer example](../images/viewer.png)
 
 > **What is Markdown?**
 > Markdown is a lightweight markup language for adding formatting to plain text documents. When you write a Markdown file, a parser reads the syntax and converts it into another format, most commonly HTML, which is what makes it so versatile. It's used everywhere from blogs and documentation to GitHub READMEs and chat apps.
 >
-> Note that there are different flavours of Markdown with slightly different syntax: for example GitHub Flavored Markdown (used in gists) supports some features that standard Markdown doesn't. For this exercise either will work fine.
+> Note that there are different flavours of Markdown with slightly different syntax: for example GitHub Flavored Markdown supports some features that standard Markdown doesn't. For this exercise either will work fine.
 >
 > For a full guide to Markdown syntax, check out [markdownguide.org/basic-syntax](https://www.markdownguide.org/basic-syntax/).
 
@@ -57,7 +59,7 @@ I really enjoyed going to the codebar Festival and I learned heaps. I got major 
 If you're trying to learn JavaScript like me I'd definitely recommend checking out codebar!
 ```
 
-Save your gist when you're done—you'll use the content in [Exercise 3](../exercises/excercise-3.md).
+Export your draft when you're done—you'll use the content in [Exercise 3](../exercises/excercise-3.md).
 
 ## Next Steps
 
